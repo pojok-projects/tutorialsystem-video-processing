@@ -1,0 +1,29 @@
+{
+  "name": "tutorialsystem-video-processing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JuniYadi/tutorialsystem-video-processing.git",
+  "author": "Juni Yadi <juniyadi94@gmail.com>",
+  "license": "MIT",
+  "nodemonConfig": {
+    "env": {
+      "PORT": 8000
+    }
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.9.7",
+    "aws-sdk": "^2.573.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
